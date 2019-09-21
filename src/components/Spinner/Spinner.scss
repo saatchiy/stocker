@@ -1,0 +1,11 @@
+@import '../../index.scss';
+
+.spinner-wrapper {  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loading-spinner {
+  color: $main-theme-color;
+}

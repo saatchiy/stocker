@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+.social-media-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .post-count {
+    font-size: 1.5rem;
+    color: $main-theme-color;
+  }
+
+  .stock-symbol {
+    font-weight: 600;
+  }
+}
+
+.social-media-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-post-counts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $input-label-color;
+}

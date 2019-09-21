@@ -1,0 +1,17 @@
+@import '../../../index.scss';
+
+.text-input-wrapper {
+  padding: 1rem;
+}
+
+.text-input__input {
+  @extend .main-input;
+}
+
+.text-input__input::placeholder {
+  color: #e2e0e0;
+}
+
+.text-input__label {
+  @extend .main-label;
+}

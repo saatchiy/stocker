@@ -1,0 +1,41 @@
+@import '../../index.scss';
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid $border-color;
+  background-color: #f1f7f5;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.header-logo {
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+}
+
+.app-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $main-theme-color;
+}
+
+.header__app-desc {
+  width: 100%;
+  display: flex;
+  color: #6c8674;
+  justify-content: flex-start;
+  height: 3rem;
+  align-items: flex-end;
+  font-weight: lighter;
+  font-size: 15px;
+  font-style: italic;
+  padding-left: 2rem;
+}

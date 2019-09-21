@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.stock-info-wrapper {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  color: $input-label-color;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

@@ -1,0 +1,13 @@
+@import '../../../index.scss';
+
+.date-input-wrapper {
+  padding: 1rem;
+}
+
+.date-input__input {
+  @extend .main-input;
+}
+
+.date-input__label {
+  @extend .main-label;
+}
