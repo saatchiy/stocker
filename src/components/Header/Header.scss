@@ -13,6 +13,15 @@
   display: flex;
   align-items: center;
   width: 70%;
+
+  .routes {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $main-theme-color;
+    padding-right: 1rem;
+    background-color: #f1f7f5;
+    border: none;
+  }
 }
 
 .header-logo {
@@ -39,3 +48,5 @@
   font-style: italic;
   padding-left: 2rem;
 }
+
+

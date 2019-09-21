@@ -4,11 +4,11 @@ import { Provider } from 'react-redux';
 
 import store from './redux/store';
 import './index.scss';
-import Home from './views/Home';
+import Main from './views/Main';
 
 ReactDOM.render(
   <Provider store={store}>
-    <Home />
+    <Main />
   </Provider>,
   document.getElementById('root')
 );
